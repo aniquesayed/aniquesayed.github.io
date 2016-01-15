@@ -10,10 +10,45 @@ title: Anique Sayed
 				</div>
 				<br>
 				<h1>Anique Sayed </h1>
-				<h2> &nbsp</h2>
+				<div class="element">
+					<h2> Coming Soon. </h2>
+				</div>
 				<br><br>
 			</div>
 		</div>
 	</div>
 </div>
 
+
+<style>
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+</style>
+
+<script>
+$(function(){
+      $(".element").typed({
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+</script>
