@@ -256,7 +256,6 @@ ul.social li:hover {
 #typed-cursor{
   opacity: 0; /* it's not blinking so made invisible */
   font-weight: 100;
-  // add prefixes
   animation: blink 0.7s infinite;
 }
 
