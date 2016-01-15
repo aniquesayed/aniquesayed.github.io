@@ -1,0 +1,488 @@
+@font-face {
+  font-family: "JustVector";
+  src: url("../fonts/jvf/fonts/JustVector_befc36341d9795c51945d4d132517a7a.eot");
+  src: url("../fonts/jvf/fonts/JustVector_befc36341d9795c51945d4d132517a7a.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/jvf/fonts/JustVector_befc36341d9795c51945d4d132517a7a.woff") format("woff"),
+       url("../fonts/jvf/fonts/JustVector_befc36341d9795c51945d4d132517a7a.ttf") format("truetype"),
+       url("../fonts/jvf/fonts/JustVector_befc36341d9795c51945d4d132517a7a.svg#JustVector") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "JustVector";
+    src: url("../fonts/jvf/fonts/JustVector_befc36341d9795c51945d4d132517a7a.svg#JustVector") format("svg");
+  }
+}
+[data-icon]:before { content: attr(data-icon); }
+
+.jvm-menu-main,
+.jvm-menu-main ul {
+		margin: 0;
+		padding: 0;
+		background: white;
+		color: #5f6f81;
+		list-style: none;
+		text-transform: none;
+		font-weight: 300;
+		font-family: 'Lato', Arial, sans-serif;
+		line-height: 60px;
+}
+
+.jvm-menu-main {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 60px;
+		font-size: 13px;
+}
+
+.jvm-menu-main a {
+		display: block;
+		height: 100%;
+		color: #5f6f81;
+		text-decoration: none;
+		cursor: pointer;
+}
+
+.no-touch .jvm-menu-main a:hover,
+.no-touch .jvm-menu li.jvm-search-item:hover,
+.no-touch .jvm-menu li.jvm-search-item:hover a {
+		background: #5f6f81;
+		color: white;
+}
+
+.jvm-menu-main > li {
+		display: block;
+		float: right;
+		height: 100%;
+		border-right: 1px solid #c6d0da;
+		text-align: center;
+}
+
+/* icon-only trigger (menu item) */
+
+.jvm-menu-main li.jvm-trigger {
+		position: relative;
+		width: 60px;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+}
+
+.jvm-menu-main > li:first-child {
+		float: left;
+		border-right: none;
+		border-left: 1px solid #c6d0da;
+}
+
+.jvm-menu-main > li:nth-child(2) {
+		float: left;
+}
+
+.jvm-menu-main > li > a {
+		padding: 0 30px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: bold;
+}
+
+.jvm-menu-main:after {
+		display: table;
+		clear: both;
+		content: "";
+}
+
+.jvm-menu-wrapper {
+		position: fixed;
+		top: 60px;
+		bottom: 0;
+		left: 0;
+		overflow: hidden;
+		width: 60px;
+		border-top: 1px solid #c6d0da;
+		background: white;
+		-webkit-transform: translateX(-60px);
+		-moz-transform: translateX(-60px);
+		transform: translateX(-60px);
+		-webkit-transition: -webkit-transform 0.3s, width 0.3s;
+		-moz-transition: -moz-transform 0.3s, width 0.3s;
+		transition: transform 0.3s, width 0.3s;
+}
+
+.jvm-scroller {
+		position: absolute;
+		overflow-y: scroll;
+		width: 370px;
+		height: 100%;
+}
+
+.jvm-menu {
+		border-bottom: 1px solid #c6d0da;
+		text-align: left;
+		font-size: 18px;
+}
+
+.jvm-menu li:not(:first-child),
+.jvm-menu li li {
+		box-shadow: inset 0 1px #c6d0da
+}
+
+.jvm-submenu li {
+		overflow: hidden;
+		height: 0;
+		-webkit-transition: height 0.3s;
+		-moz-transition: height 0.3s;
+		transition: height 0.3s;
+}
+
+.jvm-submenu li a {
+		color: #c1c9d1
+}
+
+input.jvm-search {
+		position: relative;
+		z-index: 10;
+		padding-left: 60px;
+		outline: none;
+		border: none;
+		background: transparent;
+		color: #5f6f81;
+		font-weight: 300;
+		font-family: 'Lato', Arial, sans-serif;
+		cursor: pointer;
+}
+
+/* placeholder */
+
+.jvm-search::-webkit-input-placeholder {
+		color: #5f6f81
+}
+
+.jvm-search:-moz-placeholder {
+		color: #5f6f81
+}
+
+.jvm-search::-moz-placeholder {
+		color: #5f6f81
+}
+
+.jvm-search:-ms-input-placeholder {
+		color: #5f6f81
+}
+
+/* hide placeholder when active in Chrome */
+
+.jvm-search:focus::-webkit-input-placeholder,
+.no-touch .jvm-menu li.jvm-search-item:hover .jvm-search:focus::-webkit-input-placeholder {
+		color: transparent
+}
+
+input.jvm-search:focus {
+		cursor: text
+}
+
+.no-touch .jvm-menu li.jvm-search-item:hover input.jvm-search {
+		color: white
+}
+
+/* placeholder */
+
+.no-touch .jvm-menu li.jvm-search-item:hover .jvm-search::-webkit-input-placeholder {
+		color: white
+}
+
+.no-touch .jvm-menu li.jvm-search-item:hover .jvm-search:-moz-placeholder {
+		color: white
+}
+
+.no-touch .jvm-menu li.jvm-search-item:hover .jvm-search::-moz-placeholder {
+		color: white
+}
+
+.no-touch .jvm-menu li.jvm-search-item:hover .jvm-search:-ms-input-placeholder {
+		color: white
+}
+
+.jvm-menu-main a.jvm-icon-search {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 60px;
+}
+
+.jvm-icon::before {
+		display: inline-block;
+		width: 60px;
+		text-align: center;
+		text-transform: none;
+		font-weight: normal;
+		font-style: normal;
+		font-variant: normal;
+		font-family: 'JustVector';
+		line-height: 1;
+		speak: none;
+		-webkit-font-smoothing: antialiased;
+}
+
+.jvm-icon-help::before {
+		content: "\e000"
+}
+
+.jvm-icon-earth::before {
+		content: "\e004"
+}
+
+.jvm-icon-cog::before {
+		content: "\e006"
+}
+
+.jvm-icon-search::before {
+		content: "\e005"
+}
+
+.jvm-icon-download::before {
+		content: "\e007"
+}
+
+.jvm-icon-photoshop::before {
+		content: "\e001"
+}
+
+.jvm-icon-illustrator::before {
+		content: "\e002"
+}
+
+.jvm-icon-archive::before {
+		content: "\e00d"
+}
+
+.jvm-icon-article::before {
+		content: "\e003"
+}
+
+.jvm-icon-pictures::before {
+		content: "\e008"
+}
+
+.jvm-icon-videos::before {
+		content: "\e009"
+}
+
+/* if an icon anchor has a span, hide the span */
+
+.jvm-icon span {
+		width: 0;
+		height: 0;
+		display: block;
+		overflow: hidden;
+}
+
+.jvm-icon-menu::before {
+		margin-left: -15px;
+		vertical-align: -2px;
+		width: 30px;
+		height: 3px;
+		background: #5f6f81;
+		box-shadow: 0 3px white, 0 -6px #5f6f81, 0 -9px white, 0 -12px #5f6f81;
+		content: '';
+}
+
+.no-touch .jvm-icon-menu:hover::before,
+.no-touch .jvm-icon-menu.jvm-selected:hover::before {
+		background: white;
+		box-shadow: 0 3px #5f6f81, 0 -6px white, 0 -9px #5f6f81, 0 -12px white;
+}
+
+.jvm-icon-menu.jvm-selected::before {
+		background: #5993cd;
+		box-shadow: 0 3px white, 0 -6px #5993cd, 0 -9px white, 0 -12px #5993cd;
+}
+
+/* styles for opening menu */
+
+.jvm-menu-wrapper.jvm-open-all,
+.jvm-menu-wrapper.jvm-open-part {
+		-webkit-transform: translateX(0px);
+		-moz-transform: translateX(0px);
+		transform: translateX(0px);
+}
+
+.jvm-menu-wrapper.jvm-open-all {
+		width: 340px
+}
+
+.jvm-menu-wrapper.jvm-open-all .jvm-submenu li {
+		height: 60px
+}
+
+@media screen and (max-width: 422px) { 
+	.jvm-menu-wrapper.jvm-open-all {
+			-webkit-transform: translateX(0px);
+			-moz-transform: translateX(0px);
+			transform: translateX(0px);
+			width: 100%;
+	}
+
+	.jvm-menu-wrapper.jvm-open-all .jvm-scroller {
+			width: 130%
+	}
+}
+
+
+.jvm-aim:before { content: "\f100"; }
+.jvm-aim_alt:before { content: "\f101"; }
+.jvm-amazon:before { content: "\f102"; }
+.jvm-app_store:before { content: "\f103"; }
+.jvm-apple:before { content: "\f104"; }
+.jvm-arto:before { content: "\f105"; }
+.jvm-aws:before { content: "\f106"; }
+.jvm-baidu:before { content: "\f107"; }
+.jvm-basecamp:before { content: "\f108"; }
+.jvm-bebo:before { content: "\f109"; }
+.jvm-behance:before { content: "\f10a"; }
+.jvm-bing:before { content: "\f10b"; }
+.jvm-blip:before { content: "\f10c"; }
+.jvm-blogger:before { content: "\f10d"; }
+.jvm-bnter:before { content: "\f10e"; }
+.jvm-brightkite:before { content: "\f10f"; }
+.jvm-cinch:before { content: "\f110"; }
+.jvm-cloudapp:before { content: "\f111"; }
+.jvm-coroflot:before { content: "\f112"; }
+.jvm-creative_commons:before { content: "\f113"; }
+.jvm-dailybooth:before { content: "\f114"; }
+.jvm-delicious:before { content: "\f115"; }
+.jvm-designbump:before { content: "\f116"; }
+.jvm-designfloat:before { content: "\f117"; }
+.jvm-designmoo:before { content: "\f118"; }
+.jvm-deviantart:before { content: "\f119"; }
+.jvm-digg:before { content: "\f11a"; }
+.jvm-digg_alt:before { content: "\f11b"; }
+.jvm-diigo:before { content: "\f11c"; }
+.jvm-dribbble:before { content: "\f11d"; }
+.jvm-dropbox:before { content: "\f11e"; }
+.jvm-drupal:before { content: "\f11f"; }
+.jvm-dzone:before { content: "\f120"; }
+.jvm-ebay:before { content: "\f121"; }
+.jvm-ember:before { content: "\f122"; }
+.jvm-etsy:before { content: "\f123"; }
+.jvm-evernote:before { content: "\f124"; }
+.jvm-facebook:before { content: "\f125"; }
+.jvm-facebook_alt:before { content: "\f126"; }
+.jvm-facebook_places:before { content: "\f127"; }
+.jvm-facto-me:before { content: "\f128"; }
+.jvm-feedburner:before { content: "\f129"; }
+.jvm-flickr:before { content: "\f12a"; }
+.jvm-folkd:before { content: "\f12b"; }
+.jvm-formspring:before { content: "\f12c"; }
+.jvm-forrst:before { content: "\f12d"; }
+.jvm-foursquare:before { content: "\f12e"; }
+.jvm-friendfeed:before { content: "\f12f"; }
+.jvm-friendster:before { content: "\f130"; }
+.jvm-gdgt:before { content: "\f131"; }
+.jvm-github:before { content: "\f132"; }
+.jvm-github_alt:before { content: "\f133"; }
+.jvm-goodreads:before { content: "\f134"; }
+.jvm-google:before { content: "\f135"; }
+.jvm-google_buzz:before { content: "\f136"; }
+.jvm-google_talk:before { content: "\f137"; }
+.jvm-gowalla:before { content: "\f138"; }
+.jvm-gowalla_alt:before { content: "\f139"; }
+.jvm-grooveshark:before { content: "\f13a"; }
+.jvm-hacker_news:before { content: "\f13b"; }
+.jvm-hype_machine:before { content: "\f13d"; }
+.jvm-hyves:before { content: "\f13e"; }
+.jvm-icq:before { content: "\f13f"; }
+.jvm-identi-ca:before { content: "\f140"; }
+.jvm-instapaper:before { content: "\f141"; }
+.jvm-itunes:before { content: "\f142"; }
+.jvm-kik:before { content: "\f143"; }
+.jvm-krop:before { content: "\f144"; }
+.jvm-last-fm:before { content: "\f145"; }
+.jvm-linkedin:before { content: "\f146"; }
+.jvm-linkedin_alt:before { content: "\f147"; }
+.jvm-livejournal:before { content: "\f148"; }
+.jvm-lovedsgn:before { content: "\f149"; }
+.jvm-meetup:before { content: "\f14a"; }
+.jvm-metacafe:before { content: "\f14b"; }
+.jvm-ming:before { content: "\f14c"; }
+.jvm-mister_wong:before { content: "\f14d"; }
+.jvm-mixx:before { content: "\f14e"; }
+.jvm-mixx_alt:before { content: "\f14f"; }
+.jvm-mobileme:before { content: "\f150"; }
+.jvm-msn_messenger:before { content: "\f151"; }
+.jvm-myspace:before { content: "\f152"; }
+.jvm-myspace_alt:before { content: "\f153"; }
+.jvm-newsvine:before { content: "\f154"; }
+.jvm-official-fm:before { content: "\f155"; }
+.jvm-openid:before { content: "\f156"; }
+.jvm-orkut:before { content: "\f157"; }
+.jvm-pandora:before { content: "\f158"; }
+.jvm-path:before { content: "\f159"; }
+.jvm-paypal:before { content: "\f15a"; }
+.jvm-photobucket:before { content: "\f15b"; }
+.jvm-picasa:before { content: "\f15c"; }
+.jvm-picassa:before { content: "\f15d"; }
+.jvm-pinboard-in:before { content: "\f15e"; }
+.jvm-ping:before { content: "\f15f"; }
+.jvm-pingchat:before { content: "\f160"; }
+.jvm-playstation:before { content: "\f161"; }
+.jvm-plixi:before { content: "\f162"; }
+.jvm-plurk:before { content: "\f163"; }
+.jvm-podcast:before { content: "\f164"; }
+.jvm-posterous:before { content: "\f165"; }
+.jvm-qik:before { content: "\f166"; }
+.jvm-quik:before { content: "\f167"; }
+.jvm-quora:before { content: "\f168"; }
+.jvm-rdio:before { content: "\f169"; }
+.jvm-readernaut:before { content: "\f16a"; }
+.jvm-reddit:before { content: "\f16b"; }
+.jvm-retweet:before { content: "\f16c"; }
+.jvm-robo-to:before { content: "\f16d"; }
+.jvm-rss:before { content: "\f16e"; }
+.jvm-scribd:before { content: "\f16f"; }
+.jvm-sharethis:before { content: "\f170"; }
+.jvm-simplenote:before { content: "\f171"; }
+.jvm-skype:before { content: "\f172"; }
+.jvm-slashdot:before { content: "\f173"; }
+.jvm-slideshare:before { content: "\f174"; }
+.jvm-smugmug:before { content: "\f175"; }
+.jvm-soundcloud:before { content: "\f176"; }
+.jvm-spotify:before { content: "\f177"; }
+.jvm-squarespace:before { content: "\f178"; }
+.jvm-squidoo:before { content: "\f179"; }
+.jvm-steam:before { content: "\f17a"; }
+.jvm-stumbleupon:before { content: "\f17b"; }
+.jvm-technorati:before { content: "\f17c"; }
+.jvm-threewords-me:before { content: "\f17d"; }
+.jvm-tribe-net:before { content: "\f17e"; }
+.jvm-tripit:before { content: "\f17f"; }
+.jvm-tumblr:before { content: "\f180"; }
+.jvm-twitter:before { content: "\f181"; }
+.jvm-twitter_alt:before { content: "\f182"; }
+.jvm-vcard:before { content: "\f183"; }
+.jvm-viddler:before { content: "\f184"; }
+.jvm-vimeo:before { content: "\f185"; }
+.jvm-virb:before { content: "\f186"; }
+.jvm-w3:before { content: "\f187"; }
+.jvm-whatsapp:before { content: "\f188"; }
+.jvm-wikipedia:before { content: "\f189"; }
+.jvm-windows:before { content: "\f18a"; }
+.jvm-wists:before { content: "\f18b"; }
+.jvm-wordpress:before { content: "\f18c"; }
+.jvm-wordpress_alt:before { content: "\f18d"; }
+.jvm-xing:before { content: "\f18e"; }
+.jvm-yahoo-:before { content: "\f18f"; }
+.jvm-yahoo-_buzz:before { content: "\f190"; }
+.jvm-yahoo-_messenger:before { content: "\f191"; }
+.jvm-yelp:before { content: "\f192"; }
+.jvm-youtube:before { content: "\f193"; }
+.jvm-youtube_alt:before { content: "\f194"; }
+.jvm-zerply:before { content: "\f195"; }
+.jvm-zootool:before { content: "\f196"; }
+.jvm-zynga:before { content: "\f197"; }
