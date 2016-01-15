@@ -1,5 +1,5 @@
 $(function(){
-      $(".element").typed({
+      $("#typed").typed({
         strings: ['#typed-strings'],
         typeSpeed: 10
       });
