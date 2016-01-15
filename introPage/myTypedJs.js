@@ -1,6 +1,6 @@
 $(function(){
       $(".element").typed({
-        strings: ["First sentence.", "Second sentence."],
-        typeSpeed: 0
+        strings: ["Coming Soon."],
+        typeSpeed: 10
       });
   });
