@@ -1,6 +1,6 @@
 $(function(){
       $(".element").typed({
         strings: ["Anique Sayed. <br> Coming Soon."],
-        typeSpeed: 1000
+        typeSpeed: 100
       });
   });
