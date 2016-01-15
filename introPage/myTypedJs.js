@@ -1,7 +1,6 @@
-<script>
-    $(function(){
-        $("#typed").typed({
-            stringsElement: $('#typed-strings')
-        });
-    });
-</script>
+$(function(){
+      $("#element").typed({
+        strings: ["Coming Soon."],
+        typeSpeed: 30
+      });
+  });
