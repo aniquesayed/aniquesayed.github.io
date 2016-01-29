@@ -1,6 +1,6 @@
 $(function(){
       $("#element").typed({
-        strings: ["Enter here."],
+        strings: ["Enter here..."],
         typeSpeed: 30
       });
   });
