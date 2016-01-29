@@ -1,6 +1,6 @@
 $(function(){
       $("#element").typed({
-        strings: ["Coming Soon."],
+        strings: ["Enter here."],
         typeSpeed: 30
       });
   });
