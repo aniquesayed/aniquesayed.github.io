@@ -22,12 +22,10 @@
 	background-color: #e6af61 !important;
 }
 
-#overlay {
-	width:420px;
-	height:225px;  
+#overlay {  
 	background:rgba(0,0,0,.75);
 	text-align:center;
-	padding:0 0 0 0;
+	padding:45px 0 66px 0;
 	opacity:0;
 	-webkit-transition: opacity .25s ease;
 	-moz-transition: opacity .25s ease;
