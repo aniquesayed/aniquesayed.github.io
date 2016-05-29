@@ -26,11 +26,11 @@ img {
 	margin-bottom: 20px;
 }
 
-.gameOfThrones #overlay {
+.gameOfThrones .overlay {
 	opacity: 1;
 }
 
-#overlay {  
+.overlay {  
 	background:rgba(0,0,0,.75);
 	text-align:center;
 	padding:45px 0 66px 0;
