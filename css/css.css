@@ -26,7 +26,7 @@ img {
 	margin-bottom: 20px;
 }
 
-#overlay    {  
+#overlay {  
 	background:rgba(0,0,0,.75);
 	text-align:center;
 	padding:45px 0 66px 0;
@@ -39,13 +39,20 @@ img {
 	opacity:1;
 }
 
-#box    {  
+#box {  
 	width:425px;
 	height:225px;
 	background:url('../img/gameofthrones.jpg');
 	background-size:contain;
 	overflow:hidden;
 }
+
+#plus { 	
+font-weight:900;
+color:rgba(255,255,255,.85);
+font-size:96px;
+}
+
 
 
 
