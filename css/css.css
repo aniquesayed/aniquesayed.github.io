@@ -22,15 +22,10 @@
 	background-color: #e6af61 !important;
 }
 
-img {
-	margin-bottom: 20px;
-}
-
-#overlay { 
-	width:425px;
-	height:225px; 
-	background: #e6af61;
+#overlay {  
+	background:rgba(0,0,0,.75);
 	text-align:center;
+	padding:45px 0 66px 0;
 	opacity:0;
 	-webkit-transition: opacity .25s ease;
 	-moz-transition: opacity .25s ease;
@@ -43,19 +38,27 @@ img {
 #box {  
 	width:425px;
 	height:225px;
-	background:url('../img/gameofthrones.jpg');
+	background:url('../img/place.jpg');
 	background-size:contain;
 	overflow:hidden;
 }
 
 #plus { 	
 	font-weight:900;
-	color: #000000;
+	color: #e6af61;
 	font-size:50px;
 }
 
-
-
+#got {  
+	width:425px;
+	height:225px;
+	background:url('../img/gameofthrones.jpg');
+	background-size:contain;
+	overflow:hidden;
+}
+#got:hover #overlay {
+	opacity:1;
+}
 
 
 
