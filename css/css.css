@@ -26,7 +26,7 @@ img {
 	margin-bottom: 20px;
 }
 
-.gameOfThrones .overlay {
+.gameOfThrones:hover, .overlay {
 	opacity: 1;
 }
 
