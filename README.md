@@ -1,2 +1,0 @@
-# Anique Sayed 
-Personal Wesbite
