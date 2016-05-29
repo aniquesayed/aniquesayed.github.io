@@ -1,5 +1,5 @@
 .backgroundSet {
-	background-image: url(/css/img/bg.jpg) no-repeat center center fixed; 
+	background-image: url('.../css/img/bg.jpg') no-repeat center center fixed; 
 	background-size:100%;
 height: 100%;
 display:block;
