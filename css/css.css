@@ -1,4 +1,6 @@
 .backgroundSet {
 	background-image: url('../img/bg.jpg'); 
-	width: 100%;
+	max-width: 100%;
+	height: auto;
+	position: relative;
 }
