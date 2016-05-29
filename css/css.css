@@ -36,11 +36,12 @@
 }
 
 #box {  
-	width:425px;
+	width:420px;
 	height:225px;
 	background:url('../img/place.jpg');
 	background-size:contain;
 	overflow:hidden;
+	padding-right: 10px;
 }
 
 #plus { 	
@@ -50,11 +51,12 @@
 }
 
 #got {  
-	width:425px;
+	width:420px;
 	height:225px;
 	background:url('../img/gameofthrones.jpg');
 	background-size:contain;
 	overflow:hidden;
+	padding-right: 10px;
 }
 #got:hover #overlay {
 	opacity:1;
