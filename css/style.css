@@ -152,9 +152,9 @@ footer .container	 	{ max-width:1200px; }
 #project-list h3 			{ display:block; text-align:center; line-height:25px; font-weight:400; -moz-transition:color 0.2s linear; -webkit-transition:color 0.2s linear; }
 #project-list h3:hover 			{ color:#777; -moz-transition:color 0.2s linear; -webkit-transition:color 0.2s linear; }
 #project-list a 			{ display: block; float: left; margin: 0; position: relative; vertical-align: top; width:100%; color:#fff; font-size:1.3em;}
-.outdoor-light img 			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
+.cw-management-tool img 			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
 .game-of-thrones img			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
-.kitchen-system img			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
+.start-giving img			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
 .hydropod img 				{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
 .l-series img 				{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
 .assorted img 				{ display: block; margin-left: auto; margin-right: auto; height:35px; padding-top:30px; }		
@@ -255,9 +255,9 @@ footer .back 				{ top:-3px; }
 #project-list a				{ margin-right:20px; width:235px; }	
 #project-list				{ margin-top:100px; }
 #intro					{ padding-top:125px; height:1000px; }
-.outdoor-light img			{ height:auto; padding-top:35px; }
+.cw-management-tool img			{ height:auto; padding-top:35px; }
 .game-of-thrones img			{ height:auto; padding-top:25px; }
-.kitchen-system img			{ height:auto; padding-top:30px; }
+.start-giving img			{ height:auto; padding-top:30px; }
 .hydropod img				{ height:auto;padding-top:20px; }
 .l-series img				{ height:auto;padding-top:35px; }
 .assorted img				{ height:auto;padding-top:55px; }
