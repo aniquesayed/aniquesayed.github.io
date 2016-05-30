@@ -274,7 +274,7 @@ footer .back 				{ top:-3px; }
 #intro				{ height:1000px;padding-top:12%;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 #project-list a			{ display:block;float:left;position:relative;vertical-align:top;width:315px;color:#fff;font-size:1.3em;margin:0 20px 0 0;}
 #project-list h3		{ display:block;text-align:center;font-family:Raleway, sans-serif;line-height:70px;font-weight:400;-moz-transition:color .2s linear;-webkit-transition:color .2s linear;}
-#project-list			{ margin-top:280px;}
+#project-list			{ margin-top:100px;}
 aside				{ float:right;width:32%;}
 article				{ width:61%;float:left;border-right:1px solid #d6d6d6;padding-right:30px;}
 #end				{ float:left;margin-top:30px;padding-bottom:25px;width:100%;}
