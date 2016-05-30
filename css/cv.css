@@ -43,8 +43,8 @@
    Links
    ========================================================================== */
 
-	a			 			{ color: #000; text-decoration: none; line-height:0.7em; -webkit-transition: color 0.2s linear; -moz-transition:color 0.2s linear; font-size: 1em ; font-weight: 500; }
-	a:visited	 				{ color: #000; }
+	a			 			{ color: #666; text-decoration: none; line-height:0.7em; -webkit-transition: color 0.2s linear; -moz-transition:color 0.2s linear; font-size: 1em ; font-weight: 500; }
+	a:visited	 				{ color: #666; }
 	a:hover 	 				{ color: #e49e17; text-decoration: none; -webkit-transition:color 0.2s linear; -moz-transition: color 0.2s linear;  }
 	a:focus 					{ outline: thin dotted; }
 
@@ -95,8 +95,8 @@ footer li:last-child 	{ margin:0; }
 	#contact ul li:last-child			{ padding:0; }
 	#contact ul					{ margin:0;padding:0; }
 	#contact aside					{ display:none; }
-	#contact					{ color:#000; font-weight:500; margin-bottom:20px; margin-top:20px; }
-	#contact a					{ color:#000; font-weight:500; padding:5px; }
+	#contact					{ color:#666; font-weight:500; margin-bottom:20px; margin-top:20px; }
+	#contact a					{ color:#666; font-weight:500; padding:5px; }
 	#contact a:hover				{ color:#e49e17;  text-decoration: none;}
 
 	/* Proficiency Section */
