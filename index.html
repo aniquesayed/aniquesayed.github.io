@@ -3,8 +3,6 @@ layout: default
 title: Anique Sayed - Home
 ---         
 
-<body>
-
 <section id="intro">
 
 	<h1>Recent Software Engineering graduate from the University of Westminster, London.<br>
@@ -76,4 +74,21 @@ title: Anique Sayed - Home
 	</div>
 </section> <!-- end of profile section -->
 
-</body>
+<script>
+	// When the Document Object Model is ready
+	jQuery(document).ready(function(){
+		// 'catTopPosition' is the amount of pixels #cat
+		// is from the top of the document
+		var catTopPosition = jQuery('.brief-about').offset().top;
+
+		// When #scroll is clicked
+		jQuery('.more').click(function(){
+			// Scroll down to 'catTopPosition'
+			jQuery('html, body').animate({scrollTop:catTopPosition}, 'slow');
+			// Stop the link from acting like a normal anchor link
+			return false;
+		});
+	});
+  
+</script>
+	
