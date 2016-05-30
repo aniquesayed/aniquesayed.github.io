@@ -65,6 +65,10 @@
 	opacity:0.75;
 }
 
+.lineOnTheRight {
+	border-style: solid;
+	border-right: 1px;
+}
 
 
 
