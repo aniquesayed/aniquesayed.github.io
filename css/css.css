@@ -1,3 +1,9 @@
+a:hover {
+	color: #e6af61;
+	-webkit-transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+}
+
 .backgroundSet {
 	background-image: url('../img/bg.jpg'); 
 	width: 100%;
