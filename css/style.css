@@ -154,7 +154,6 @@ footer .container	 	{ max-width:1200px; }
 #project-list a 			{ display: block; float: left; margin: 0; position: relative; vertical-align: top; width:100%; color:#fff; font-size:1.3em;}
 .cw-management-tool img 			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
 .game-of-thrones img			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
-.game-of-thrones h3      { font-size: 22px;}
 .start-giving img			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
 .hydropod img 				{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
 .l-series img 				{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
@@ -274,7 +273,7 @@ footer .back 				{ top:-3px; }
 #project-list a:nth-child(3n)	{ margin-right:0;}
 #intro				{ height:1000px;padding-top:12%;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 #project-list a			{ display:block;float:left;position:relative;vertical-align:top;width:315px;color:#fff;font-size:1.3em;margin:0 20px 0 0;}
-#project-list h3		{ display:block;text-align:center;font-family:Raleway, sans-serif;line-height:70px;font-weight:400;-moz-transition:color .2s linear;-webkit-transition:color .2s linear;}
+#project-list h3		{ display:block;text-align:center;font-family:Raleway, sans-serif;line-height:50px;font-weight:400;-moz-transition:color .2s linear;-webkit-transition:color .2s linear;}
 #project-list			{ margin-top:100px;}
 aside				{ float:right;width:32%;}
 article				{ width:61%;float:left;border-right:1px solid #d6d6d6;padding-right:30px;}
