@@ -325,7 +325,7 @@ footer .back 				{ top:-3px; }
 }
 @media only screen and (min-width: 1050px) {
   /* Style adjustments for viewports 768px and over go here */
-.container			{ max-width:1025px;margin:0 auto;padding:20px; padding-top: 50px;}
+.container			{ max-width:1025px;margin:0 auto;padding:20px; padding-top: 125px;}
 #project-list a:nth-child(2n)	{ margin-right:20px;}
 #project-list a:nth-child(3n)	{ margin-right:0;}
 #intro				{ height:1000px;padding-top:12%;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
