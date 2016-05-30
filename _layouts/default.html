@@ -24,7 +24,6 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-		<!-- / BOOTSTRAP CDN -->
 
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -81,35 +80,38 @@
 		
 		<!-- Header -->
 		<div class="jumbotron">
-  			<div class="container text-center">
-				<a href="/">
-						<h1>Anique Sayed</h1>
-				</a>
-				<br>
-				<blockquote class="hvr-underline-from-left">
-					<p>"Stay hungry. Stay foolish."</p>
-					<footer>Steve Jobs</footer>
-				</blockquote>
-  			</div>
+  			<div id="name">
+    			<h1 class="main-name"><a href="/">Anique Sayed</a></h1>
+    		</div>
+			<br>
+			<blockquote class="hvr-underline-from-left">
+				<p>"Stay hungry. Stay foolish."</p>
+				<footer>Steve Jobs</footer>
+			</blockquote>
 		</div>
-		<!-- /Header -->
 
 		<!-- Main body content -->
 		<div class="container-fluid">
 			{{ content }}
 		</div>
-		<!-- /Main body content -->
 
 		<!-- Footer content -->
-		<footer class="container-fluid text-center">
-  			<p>Footer Text</p>
+		<footer>
+	    	<section id="end">
+				<div class="container" role="container">
+					<ul>
+						<li><a href="http://www.linkedin.com/in/kylethacker">LinkedIn</a></li>
+						<li><a href="http://www.dribbble.com/kylethacker">Github</a></li>
+						<li><a href="http://www.instagram.com/kylethacker">Instagram</a></li>
+						<li><a href="/resume/">Resume</a></li>
+						<li><a href="mailto:contact@kylethacker.com">E-mail</a></li>
+					</ul>
+				</div>
+			</section>
+	    </footer>
 
+		<script src="js/jquery.js"></script> 
 
-			<!-- jQuery -->
-			<script src="js/jquery.js"></script> 
-
-		</footer>
-		<!-- /Footer content -->
 		
 	</body>
 

@@ -195,7 +195,7 @@ footer .container	 	{ max-width:1200px; }
 #intro h1			{ max-width:600px; margin:0 auto; text-align:center; font-weight:400; font-size:2.1em; letter-spacing:0.1em; padding: 0 20px 0 20px; color:#fff; }
 #intro .more h5			{ background:#e6af61; width:80px; height:30px; text-align:center; line-height:30px; text-transform:uppercase; margin:0 auto; color:#fff; margin-top:30px; -moz-border-radius: 2px; border-radius: 2px; font-weight:800; letter-spacing:0.15em; font-size:0.85em; -webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear;  }
 #intro .more h5:hover	 	{ background:#434343; -webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; }
-#intro				{ padding-top:100px; width:100%; padding-bottom:40px; float:left; background:url("/img/background-large.jpg"); background-repeat: no-repeat; background-attachment: scroll; background-position: center center; background-clip: border-box; background-origin: padding-box; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-color:#c0c0c0; }
+#intro				{ padding-top:100px; width:100%; padding-bottom:40px; float:left; background:url("/img/bg.jpg"); background-repeat: no-repeat; background-attachment: scroll; background-position: center center; background-clip: border-box; background-origin: padding-box; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-color:#c0c0c0; }
 
 /* =============================================================================
    Main - Project List
@@ -208,7 +208,7 @@ footer .container	 	{ max-width:1200px; }
 #project-list h3:hover 			{ color:#777; -moz-transition:color 0.2s linear; -webkit-transition:color 0.2s linear; }
 #project-list a 			{ display: block; float: left; margin: 0; position: relative; vertical-align: top; width:100%; color:#fff; font-size:1.3em;}
 .outdoor-light img 			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
-.living-shade img			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
+.game-of-thrones img			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
 .kitchen-system img			{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
 .hydropod img 				{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
 .l-series img 				{ display: block; margin-left: auto; margin-right: auto; height:75px; padding-top:12px; }
@@ -311,7 +311,7 @@ footer .back 				{ top:-3px; }
 #project-list				{ margin-top:100px; }
 #intro					{ padding-top:125px; height:1000px; }
 .outdoor-light img			{ height:auto; padding-top:35px; }
-.living-shade img			{ height:auto; padding-top:25px; }
+.game-of-thrones img			{ height:auto; padding-top:25px; }
 .kitchen-system img			{ height:auto; padding-top:30px; }
 .hydropod img				{ height:auto;padding-top:20px; }
 .l-series img				{ height:auto;padding-top:35px; }
