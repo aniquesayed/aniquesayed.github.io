@@ -203,7 +203,7 @@ footer .container	 	{ max-width:1200px; }
    Main - Project List
    ========================================================================== */
 		
-#project-list				{ margin:0 auto; margin-top:100px; }	
+#project-list				{ margin:0 auto; margin-top:150px; }	
 #project-list .project-image	  	{ height:100px; opacity:1; display:block; -moz-border-radius: 5px; border-radius: 5px; -webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; background:#e6af61; margin:0; width:100%; } 
 #project-list .project-image:hover 	{ background:#434343; -webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; }
 #project-list h3 			{ display:block; text-align:center; line-height:25px; font-weight:400; -moz-transition:color 0.2s linear; -webkit-transition:color 0.2s linear; }
