@@ -204,8 +204,8 @@ footer .container	 	{ max-width:1200px; }
    ========================================================================== */
 		
 #project-list				{ margin:0 auto; margin-top:100px; }	
-#project-list .project-image	  	{ height:100px; opacity:1; display:block; -moz-border-radius: 5px; border-radius: 5px; -webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; background:#e6af61; margin:0; width:100%; } 
-#project-list .project-image:hover 	{ background:#434343; -webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; }
+#project-list .project-image	  	{ height:100px; opacity:1; display:block; -moz-border-radius: 5px; border-radius: 5px; -webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; background:#434343; margin:0; width:100%; } 
+#project-list .project-image:hover 	{ background:#e6af61; -webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; }
 #project-list h3 			{ display:block; text-align:center; line-height:25px; font-weight:400; -moz-transition:color 0.2s linear; -webkit-transition:color 0.2s linear; }
 #project-list h3:hover 			{ color:#777; -moz-transition:color 0.2s linear; -webkit-transition:color 0.2s linear; }
 #project-list a 			{ display: block; float: left; margin: 0; position: relative; vertical-align: top; width:100%; color:#fff; font-size:1.3em;}
