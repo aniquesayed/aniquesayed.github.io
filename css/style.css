@@ -83,6 +83,8 @@ body { margin: 0; font-size: 13px; line-height: 1.231; font-family: 'Raleway', s
 
 body, button, input, select, textarea { font-family: 'Raleway', sans-serif; color: #222; }
 
+.jumbotron {text-align: center;}
+
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
@@ -321,7 +323,7 @@ footer .back 				{ top:-3px; }
 #project-intro span			{ display:inherit; } 	
  #project-intro h3			{ padding:0 0 0 20px; }	  
 }
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 1050px) {
   /* Style adjustments for viewports 768px and over go here */
 .container			{ max-width:985px;margin:0 auto;padding:20px;}
 #project-list a:nth-child(2n)	{ margin-right:20px;}
