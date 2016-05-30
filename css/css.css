@@ -7,12 +7,9 @@ a {
 
 a:hover {
 	color: #e6af61;
+	text-decoration: none;
 	-webkit-transition: color 0.2s linear;
 	-moz-transition: color 0.2s linear;
-}
-
-a:visited {
-	color: #5f5f5f;
 }
 
 ::selection {
