@@ -321,7 +321,7 @@ footer .back 				{ top:-3px; }
 #project-intro span			{ display:inherit; } 	
  #project-intro h3			{ padding:0 0 0 20px; }	  
 }
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 2000px) {
   /* Style adjustments for viewports 768px and over go here */
 .container			{ max-width:985px;margin:0 auto;padding:20px;}
 #project-list a:nth-child(2n)	{ margin-right:20px;}
