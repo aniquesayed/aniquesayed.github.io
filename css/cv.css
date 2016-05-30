@@ -43,9 +43,9 @@
    Links
    ========================================================================== */
 
-	a			 			{ color: #e49e17; text-decoration: none; line-height:0.7em; -webkit-transition: color 0.2s linear; -moz-transition:color 0.2s linear; font-size: 1em ; font-weight: 500; }
+	a			 			{ color: #000; text-decoration: none; line-height:0.7em; -webkit-transition: color 0.2s linear; -moz-transition:color 0.2s linear; font-size: 1em ; font-weight: 500; }
 	a:visited	 				{ color: #e49e17; }
-	a:hover 	 				{ color: #000; text-decoration: none; -webkit-transition:color 0.2s linear; -moz-transition: color 0.2s linear;  }
+	a:hover 	 				{ color: #e49e17; text-decoration: none; -webkit-transition:color 0.2s linear; -moz-transition: color 0.2s linear;  }
 	a:focus 					{ outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
