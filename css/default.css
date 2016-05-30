@@ -30,3 +30,5 @@
 .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
   right: 0;
 }
+
+.jumbotron {text-align: center;}

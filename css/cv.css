@@ -105,9 +105,6 @@ footer li:last-child 	{ margin:0; }
 	.pdf h5						{ margin:0 auto 50px auto; background-color: #e6af61; color:#fff; font-size:1.1em; text-transform:uppercase; text-align:center; line-height:30px; height: 30px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius: 4px; width: 80px; -webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear;  }
 	.pdf h5:hover					{ background-color:#000;-webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; }  
 
-	.jumbotron {text-align: center;}
-
-
 /* ==|== media queries ======================================================
    PLACEHOLDER Media Queries for Responsive Design.
    These override the primary ('mobile first') styles

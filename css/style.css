@@ -28,8 +28,6 @@ body { margin: 0; font-size: 13px; line-height: 1.231; font-family: 'Raleway', s
 
 body, button, input, select, textarea { font-family: 'Raleway', sans-serif; color: #222; }
 
-.jumbotron {text-align: center;}
-
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate
