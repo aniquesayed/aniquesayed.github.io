@@ -1,96 +1,48 @@
-/*a {
-	color: #222;
-	text-decoration: none;
-	-webkit-transition: color 0.2s linear;
-	-moz-transition: color 0.2s linear;
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(http://fonts.gstatic.com/s/raleway/v11/8KhZd3VQBtXTAznvKjw-k73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
-
-a:hover {
-	color: #e6af61;
-	text-decoration: none;
-	-webkit-transition: color 0.2s linear;
-	-moz-transition: color 0.2s linear;
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(http://fonts.gstatic.com/s/raleway/v11/-_Ctzj9b56b8RgXW8FArib3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
-
-::selection {
-	background: #e6af61;
-	color: #fff;
-	text-shadow: none;
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v11/cIFypx4yrWPDz3zOxk7hIQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
 }
-
-.backgroundSet {
-	background-image: url('../img/bg.jpg'); 
-	width: 100%;
-	height: auto;
-	background-repeat: no-repeat;
-	background-size: contain;
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(http://fonts.gstatic.com/s/raleway/v11/CcKI4k9un7TZVWzRVT-T873hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
-
-.whiteText {
-	color: #ffffff;
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://fonts.gstatic.com/s/raleway/v11/xkvoNo9fC8O2RDydKj12b73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
-
-.blackText {
-	color: #333 !important;
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(http://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaI73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
-
-.alteredText {
-	color: #e6af61 !important;
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url(http://fonts.gstatic.com/s/raleway/v11/1ImRNPx4870-D9a1EBUdPL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
-
-.btn-warning {
-	background-color: #e6af61 !important;
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Raleway Black'), local('Raleway-Black'), url(http://fonts.gstatic.com/s/raleway/v11/PKCRbVvRfd5n7BTjtGiFZL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
-
-#overlay {  
-	background: #e6af61;
-	text-align:center;
-	padding:45px 0 66px 0;
-	opacity:0;
-	-webkit-transition: opacity .25s ease;
-	-moz-transition: opacity .25s ease;
-}
-
-#box:hover #overlay {
-	opacity:0.5;
-}
-
-#box {  
-	width:420px;
-	height:225px;
-	background:url('../img/place.jpg');
-	background-size:contain;
-	overflow:hidden;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-#plus { 	
-	font-weight:900;
-	color: #ffffff;
-	font-size:50px;
-}
-
-#got {  
-	width:420px;
-	height:225px;
-	background:url('../img/gameofthrones.jpg');
-	background-size:contain;
-	overflow:hidden;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-#got:hover #overlay {
-	opacity:0.75;
-}
-
-.lineOnTheRight {
-	border-right-style: solid;
-    border-right-width: 1px;
-}
-
-
-
-
-*/

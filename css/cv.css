@@ -1,0 +1,145 @@
+/* 
+ * Kyle Thacker Resume
+ *
+ * Responsive resume created by Kyle Thacker and built off the HTML5 Boilerplate.
+ *
+ * kylethacker.com    /   kylethacker.com/resume/
+ *
+ */
+
+
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+	audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+	audio:not([controls]) { display: none; }
+	[hidden] { display: none; }
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ * 2. Force vertical scrollbar in non-IE
+ * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+ */
+
+	html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; font-family: 'Raleway', sans-serif; -ms-text-size-adjust: 100%; }
+	body { margin: 0; font-size: 13px; line-height: 1.231; font-family: 'Raleway', sans-serif; color: #222;}
+
+/* 
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate
+ * Also: hot pink! (or customize the background color to match your design)
+ */
+
+	::-moz-selection 				{ background: #e6af61; color: #fff; text-shadow: none; }
+	::selection					{ background: #e6af61; color: #fff; text-shadow: none; }
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+
+	a			 			{ color: #e49e17; text-decoration: none; line-height:0.7em; -webkit-transition: color 0.2s linear; -moz-transition:color 0.2s linear; font-size: 1em ; font-weight: 500; }
+	a:visited	 				{ color: #e49e17; }
+	a:hover 	 				{ color: #000; -webkit-transition:color 0.2s linear; -moz-transition: color 0.2s linear;  }
+	a:focus 					{ outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+	a:hover, a:active 				{ outline: 0; }
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+   
+	p 						{ line-height:1.5em; font-size:1.2em; color:#555; font-family: 'Raleway', sans-serif; }   
+	h1 						{ font-weight: 400; line-height: 1.5em; color: #666; }
+	h2 						{ font-weight: 500; }  
+	h3						{ font-size: 1.5em; line-height: 15px; font-weight: 600; color: #e49e17; padding:5px 5px 5px 0; margin:-5px 0 15px 0; }
+	h4						{ padding:0; margin:0;}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+
+	ul, ol						{ margin: 1em 0; padding: 0 0 0 40px; list-style-type: none;}
+
+/* =============================================================================
+   Styling
+   ========================================================================== */  
+  
+	#container					{ max-width: 900px; margin: 0 auto; margin-bottom: 50px; padding-right: 20px; padding-left: 20px; }
+	aside 						{ color:#888; text-transform: uppercase; text-align: center; margin-bottom: 50px; line-height: 30px; }
+	article 					{ margin-bottom: 35px; width: 100%; }
+	section						{ width:100%; float:left; margin-top:25px; padding:0; }
+	.date						{ color:#888; margin-right:20px; font-size:0.8em; padding-top:20px; }
+	.role b						{ font-size:1.2em; letter-spacing:0.03em; color:#333; font-weight:600; }
+
+	/* Contact Section */
+
+	#contact ul li					{ list-style-type:none;display:block;margin:0; padding:0; font-size:1.2em;text-align:center;padding-bottom:10px; }
+	#contact ul li:last-child			{ padding:0; }
+	#contact ul					{ margin:0;padding:0; }
+	#contact aside					{ display:none; }
+	#contact					{ color:#000; font-weight:500; margin-bottom:20px; margin-top:20px; }
+	#contact a					{ color:#000; font-weight:500; padding:5px; }
+	#contact a:hover				{ color:#e49e17;  }
+
+	/* Proficiency Section */
+
+	#proficiency ul					{ float:left; padding:0; margin:0; margin-bottom:20px; font-size:0.9em; width:50%; }
+	#proficiency ul li				{ display:block; font-size:1.2em; padding-bottom:10px; }
+
+	/* PDF */
+
+	.pdf h5						{ margin:0 auto 50px auto; background-color: #e6af61; color:#fff; font-size:1.1em; text-transform:uppercase; text-align:center; line-height:30px; height: 30px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius: 4px; width: 80px; -webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear;  }
+	.pdf h5:hover					{ background-color:#000;-webkit-transition:background-color 0.2s linear; -moz-transition:background-color 0.2s linear; }  
+
+
+/* ==|== media queries ======================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   These override the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+
+	.date						{ float:right; padding:0; }
+	#proficiency ul					{ width:33.33%; }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+
+	aside						{ float:left;width:15%;color:#888;text-transform:uppercase;text-align:left;margin:0;padding:0; line-height: 15px; }
+	article						{ float:right;width:85%;margin-bottom:10px; }
+	header						{ margin-bottom:50px; }
+	#contact ul li					{ float:left; margin-right:12%; font-size:1em; padding:0; }
+	#contact aside					{ display:block; }
+	#contact					{ margin-bottom:50px;margin-top:20px; }
+	.pdf h5						{ margin-left:43%; }
+}  
+  
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+ 
+@media print {
+	* { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+	a, a:visited { text-decoration: underline; }
+	a[href]:after { content: " (" attr(href) ")"; }
+	abbr[title]:after { content: " (" attr(title) ")"; }
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+	pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+	thead { display: table-header-group; } /* h5bp.com/t */
+	tr, img { page-break-inside: avoid; }
+	img { max-width: 100% !important; }
+	@page { margin: 0.5cm; }
+	p, h2, h3 { orphans: 3; widows: 3; }
+	h2, h3 { page-break-after: avoid; }
+}
