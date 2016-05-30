@@ -66,8 +66,8 @@
 }
 
 .lineOnTheRight {
-	border-style: solid;
-	border-right: 1px;
+	border-right-style: solid;
+    border-right-width: 5px;
 }
 
 
