@@ -271,6 +271,7 @@ footer .back 				{ top:-3px; }
 .container			{ max-width:1025px;margin:0 auto;padding:20px; padding-top: 125px;}
 #project-list a:nth-child(2n)	{ margin-right:20px;}
 #project-list a:nth-child(3n)	{ margin-right:0;}
+#project-list a:nth-child(1) { display: none;}
 #intro				{ height:1000px;padding-top:12%;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 #project-list a			{ display:block;float:left;position:relative;vertical-align:top;width:315px;color:#fff;font-size:1.3em;margin:0 20px 0 0;}
 #project-list h3		{ display:block;text-align:center;font-family:Raleway, sans-serif;line-height:50px;font-weight:400;-moz-transition:color .2s linear;-webkit-transition:color .2s linear;}
@@ -283,7 +284,6 @@ header				{ position:inherit;height:90px;}
 #project-intro .container	{ max-width:1200px;width:auto;padding-bottom:0;padding-top:50px;}
 .back				{ top:0;}
 .forward			{ top:-40px;}
-.hiding-for-iPad { display: none;}
 }
 
 @media only screen and (min-width: 1200px) {
