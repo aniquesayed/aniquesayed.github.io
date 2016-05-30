@@ -321,6 +321,6 @@ footer .forward h5		{ top:-14px; }
 }
 
 
-@media only screen and (min-width: 545px) and (max-width: 1049) {
+@media only screen and (min-width: 545px) and (max-width: 1049px) {
    #project-list a:nth-child(3) { display: none;}
 }
