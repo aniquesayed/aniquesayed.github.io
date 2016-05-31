@@ -281,8 +281,8 @@ article				{ width:61%;float:left;border-right:1px solid #d6d6d6;padding-right:3
 header				{ position:inherit;height:90px;}
 .main-name			{ line-height:50px;}
 #project-intro .container	{ max-width:1200px;width:auto;padding-bottom:0;padding-top:40px;}
-.back				{ top:0;}
-.forward			{ top:-50px;}
+.back				{ top:-20px;}
+.forward			{ top:-70px;}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -293,9 +293,9 @@ header				{ position:inherit;height:90px;}
 @media only screen and (min-width: 800px) {
 footer .back h5			{ top:-14px; }
 footer .forward h5		{ top:-14px; }
-.back h5			{ position:relative; top:-5px;left:50px; width:150px; font-size:1em; text-transform:uppercase;color:#000; display:block; padding:10px; }
+.back h5			{ position:relative; top:-5px;left:50px; width:200px; font-size:1em; text-transform:uppercase;color:#000; display:block; padding:10px; }
 .back h5:hover			{ color:#000; }
-.forward h5			{ position:relative; top:-5px;left:-150px; width:150px; text-align:right; font-size:1em; text-transform:uppercase;color:#000; display:block; padding:10px; }
+.forward h5			{ position:relative; top:-5px;left:-200px; width:200px; text-align:right; font-size:1em; text-transform:uppercase;color:#000; display:block; padding:10px; }
 .forward h5:hover		 {color:#000; }
 }
 
