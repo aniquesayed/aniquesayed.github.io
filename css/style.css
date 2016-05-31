@@ -293,9 +293,9 @@ header				{ position:inherit;height:90px;}
 @media only screen and (min-width: 800px) {
 footer .back h5			{ top:-14px; }
 footer .forward h5		{ top:-14px; }
-.back h5			{ position:relative; top:-5px;left:50px; width:200px; font-size:1em; text-transform:uppercase;color:#000; display:block; padding:10px; }
+.back h5			{ position:relative; top:-10px;left:50px; width:200px; font-size:1.5em; text-transform:uppercase;color:#000; display:block; padding:10px; }
 .back h5:hover			{ color:#000; }
-.forward h5			{ position:relative; top:-5px;left:-200px; width:200px; text-align:right; font-size:1em; text-transform:uppercase;color:#000; display:block; padding:10px; }
+.forward h5			{ position:relative; top:-30px;left:-200px; width:200px; text-align:right; font-size:1.5em; text-transform:uppercase;color:#000; display:block; padding:10px; }
 .forward h5:hover		 {color:#000; }
 }
 
