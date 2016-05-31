@@ -282,7 +282,7 @@ header				{ position:inherit;height:90px;}
 .main-name			{ line-height:50px;}
 #project-intro .container	{ max-width:1200px;width:auto;padding-bottom:0;padding-top:40px;}
 .back				{ top:0;}
-.forward			{ top:-40px;}
+.forward			{ top:-50px;}
 }
 
 @media only screen and (min-width: 1200px) {
