@@ -2,13 +2,6 @@
     font-family: "Lucida Console", Monaco, monospace
 }
 
-body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: white
-}
-
 .arrow {
     z-index: 1;
     position: fixed;
@@ -269,55 +262,6 @@ form {
     width: 100%
 }
 
-.footer {
-    text-align: center;
-    height: 35px;
-    width: 100%;
-    position: fixed;
-    bottom: 0
-}
-
-.footer .footer-content {
-    text-align: center;
-    background-color: grey;
-    height: 100%
-}
-
-.footer #authors {
-    font-family: "freight-sans-pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    color: #fff;
-    font-size: 14px;
-    margin-top: 20px
-}
-
-.footer #authors a {
-    color: #fff
-}
-
-.footer #authors a:hover {
-    color: #000
-}
-
-.footer #footer-toggle {
-    cursor: pointer;
-    font-family: "freight-sans-pro", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    background-color: grey;
-    margin: 0 auto;
-    width: 330px;
-    height: 28px;
-    font-size: 14px;
-    line-height: 30px;
-    color: #fff
-}
-
-.footer #footer-toggle:hover {
-    color: #000
-}
-
 #fb {
     font-family: "freight-sans-pro", sans-serif;
     font-style: normal;
@@ -356,46 +300,4 @@ form {
     font-weight: 400;
     width: 190px;
     height: 34px
-}
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
-img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
-center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
-tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section,
-summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup,
-menu, nav, section {
-    display: block
-}
-
-body {
-    line-height: 1
-}
-
-ol, ul {
-    list-style: none
-}
-
-blockquote, q {
-    quotes: none
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-    content: '';
-    content: none
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0
 }
