@@ -111,7 +111,7 @@
 }
 
 .iphone {
-    background-image: url("img/iphone.jpg");
+    background-image: url("/img/iphone.jpg");
     background-repeat: no-repeat;
     height: 1150px;
     width: 526px;
@@ -126,7 +126,7 @@
 }
 
 .ipad {
-    background-image: url("img/ipad.jpg");
+    background-image: url("/img/ipad.jpg");
     background-repeat: no-repeat;
     height: 1480px;
     width: 1252px;
