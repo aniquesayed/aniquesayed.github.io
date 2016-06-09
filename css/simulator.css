@@ -67,12 +67,6 @@
     float: left
 }
 
-.contentings {
-    height: 1500px;
-    top: 20%;
-    text-align: center
-}
-
 .contentings div {
     display: inline-block
 }
@@ -113,7 +107,7 @@
 .iphone {
     background-image: url("/img/iphone.jpg");
     background-repeat: no-repeat;
-    height: 1150px;
+    height: 850px;
     width: 526px;
     margin-top: 15px
 }
