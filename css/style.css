@@ -53,6 +53,17 @@ a:focus { outline: thin dotted; }
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
 a:hover, a:active { outline: 0; }
 
+a h5{ color: #e6af61; text-decoration: none; -webkit-transition:color 0.2s linear; -moz-transition:color 0.2s linear; }
+
+a h5:visited { color: #e6af61; }
+
+a h5:hover { color: #5f5f5f; text-decoration: none; -webkit-transition:color 0.2s linear; -moz-transition:color 0.2s linear;  }
+
+a h5:focus { outline: thin dotted; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a h5:hover, a:active { outline: 0; }
+
 
 /* =============================================================================
    Typography
