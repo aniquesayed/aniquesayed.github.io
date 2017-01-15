@@ -39,9 +39,9 @@ aniquesayed.github.io
    Links
    ========================================================================== */
 
-	a			 			{ color: #666; text-decoration: none; line-height:0.7em; -webkit-transition: color 0.2s linear; -moz-transition:color 0.2s linear; font-size: 1em ; font-weight: 500; }
-	a:visited	 				{ color: #666; }
-	a:hover 	 				{ color: #e49e17; text-decoration: none; -webkit-transition:color 0.2s linear; -moz-transition: color 0.2s linear;  }
+	a			 			{ color: #e6af61; text-decoration: none; line-height:0.7em; -webkit-transition: color 0.2s linear; -moz-transition:color 0.2s linear; font-size: 1em ; font-weight: 500; }
+	a:visited	 				{ color: #e6af61; }
+	a:hover 	 				{ color: #5f5f5f; text-decoration: none; -webkit-transition:color 0.2s linear; -moz-transition: color 0.2s linear;  }
 	a:focus 					{ outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
