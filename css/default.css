@@ -32,3 +32,62 @@
 }
 
 .jumbotron {text-align: center; margin-bottom: 0px;}
+
+
+
+
+/*Skills chart*/
+#skills-chart{margin-top:40px}
+#skills-chart .chart-title{margin:0 0 160px 0}
+#skills-chart .chart-title span{font-size:1.5em;background:rgba(219,39,0,0.45);color:#fff}
+#skills-chart ul{position:relative;list-style:none}
+#skills-chart #chart-legend{position:absolute;width:100%;margin:0;padding:0}
+#skills-chart #chart-legend li{position:relative;float:left;width:20%;background:url('../img/skills-chart-legend-vline.svgz') no-repeat 100% 0}.no-svg 
+#skills-chart #chart-legend li{backgraound:url('../img/skills-chart-legend-vline.png') no-repeat 0 0}
+#skills-chart #chart-legend .legend-label{position:absolute;top:-30px;right:-10px;display:block;font-size:.8em;line-height:1;-webkit-transform:rotate(50deg);-webkit-transform-origin:100% 0;-moz-transform:rotate(50deg);-moz-transform-origin:100% 0;-ms-transform:rotate(50deg);-ms-transform-origin:100% 0;-o-transform:rotate(50deg);-o-transform-origin:100% 0;transform:rotate(50deg);transform-origin:100% 0;width:200px;text-align:right}
+#skills-chart #chart-legend li
+#label05 .legend-label{background:url('../img/darth-vader.svgz') no-repeat 100% 50%;padding:0 40px 0 0;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;background-size:contain}.no-svg 
+#skills-chart #chart-legend li #label05 .legend-label{background:url('../img/darth-vader.png') no-repeat 0 50%}
+#skills-chart 
+#chart-data{padding-top:30px;margin:0;background:url('../img/skills-chart-hbar-grid.svgz') no-repeat 0 100%}.no-svg 
+#skills-chart 
+#chart-data{background:url('../img/skills-chart-hbar-grid.png') no-repeat 0 100%}
+#skills-chart 
+#chart-data li{background:url('../img/skills-chart-hbar-grid.svgz') no-repeat 0 0;border-left:1px solid 
+#000}.no-svg 
+#skills-chart 
+#chart-data li{background:url('../img/skills-chart-hbar-grid.png') no-repeat 0 0}
+#skills-chart 
+#chart-data .data-bar{background:url('../img/skills-chart-hbar.svgz') no-repeat 100% 50%;height:60px}.no-svg 
+#skills-chart 
+#chart-data .data-bar{background:url('../img/skills-chart-hbar.png') no-repeat 100% 50%}
+#skills-chart 
+#chart-data .data-label{line-height:60px;font-size:.938em;margin-left:15px}
+#skills-chart 
+#chart-data 
+#bar01 .data-bar{width:85%}
+#skills-chart 
+#chart-data 
+#bar02 .data-bar{width:85%}
+#skills-chart 
+#chart-data 
+#bar03 .data-bar{width:85%}
+#skills-chart 
+#chart-data 
+#bar04 .data-bar{width:78%}
+#skills-chart 
+#chart-data 
+#bar05 .data-bar{width:65%}
+#skills-chart 
+#chart-data 
+#bar06 .data-bar{width:100%}
+#skills-chart 
+#chart-data 
+#bar07 .data-bar{width:75%}
+#skills-chart 
+#chart-data 
+#bar08 .data-bar{width:53%}
+#skills-chart 
+#chart-data 
+#bar09 .data-bar{width:85%}
+
