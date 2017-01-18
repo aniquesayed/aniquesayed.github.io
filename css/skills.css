@@ -151,7 +151,7 @@
         }
 
   #infografik .rightside {
-    width: 502px;
+    /*width: 502px;
     height: 401px;
     
     overflow: hidden;
@@ -160,6 +160,10 @@
     
     position: relative;
     float: left;
+
+    article       {*/ 
+      width:61%;float:left;border-right:1px solid #d6d6d6;padding-right:30px;
+
     
     background: url('../images/layout/gehirn_sprite.png') no-repeat;
   }
