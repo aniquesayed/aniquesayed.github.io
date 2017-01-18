@@ -37,55 +37,7 @@
 
 
 /*Skills chart*/
-/*=================ALLGEMEIN==================*/
-html, body {
-  height: 100%;
-}
 
-body {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  color: #3e3d3b;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-  
-  background: url('../images/layout/bg.png');
-}
-
-a, a:link {
-  color: #ff6d6d;
-  text-decoration: underline;
-}
-a:visited {
-  color: #ff8d8d;
-}
-a:hover {
-  color: #e54545;
-}
-a:active {
-  color: #d43535;
-  outline: none;
-}
-
-p {
-  padding-bottom: 9px;
-}
-
-h1,h2 {
-  padding: 0 0 18px 0;
-  font-size: 31px;
-  line-height: 36px;
-  color: #615f5d;
-}
-h3 {
-  font-size: 16px;
-  font-weight: bold;
-  padding: 0 0 9px 0;
-}
-
-.clear {
-  clear: both;
-}
 
 /*==================STARTSEITE================*/
 
