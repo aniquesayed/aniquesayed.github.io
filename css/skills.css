@@ -107,7 +107,7 @@
   }
   #infografik .leftside {
     width: 164px;
-    float: left;
+    float: right;
   }
     #infografik .leftside .gehirndesign, #infografik .leftside .gehirncoding, #infografik .leftside .gehirnspiele {
       width:  140px; /* 130px */
@@ -159,7 +159,7 @@
     margin: 20px 0 0 0;
     
     position: relative;
-    float: right;
+    float: left;
     
     background: url('../images/layout/gehirn_sprite.png') no-repeat;
   }
