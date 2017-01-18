@@ -72,11 +72,11 @@ ul.menu.startseite {
   margin: 7px 0 0 0;
 }
 
-  #subboxes .leftside, #subboxes .rightside {
+  #subboxes .rightside, #subboxes .leftside {
     width: 50%;
     float: left;
   }
-  #subboxes .rightside  {
+  #subboxes .leftside  {
     float: right;
   }
   
@@ -290,31 +290,31 @@ ul.menu.startseite {
   #infografik h1 {
     padding: 0 0 40px 171px;
   }
-  #infografik .leftside {
+  #infografik .rightside {
     width: 164px;
     float: left;
   }
-    #infografik .leftside .gehirndesign, #infografik .leftside .gehirncoding, #infografik .leftside .gehirnspiele {
+    #infografik .rightside .gehirndesign, #infografik .rightside .gehirncoding, #infografik .rightside .gehirnspiele {
       width:  140px; /* 130px */
       padding: 7px 12px;
       margin: 0;
       
       background: url('../images/layout/gehirn_links_hover.png') no-repeat 0 500px;
     }
-    #infografik .leftside .gehirndesign.aktivkat {
+    #infografik .rightside .gehirndesign.aktivkat {
       background-position: 0 0;
     }
-    #infografik .leftside .gehirncoding.aktivkat {
+    #infografik .rightside .gehirncoding.aktivkat {
       background-position: 0 -191px;
     }
-    #infografik .leftside .gehirnspiele.aktivkat {
+    #infografik .rightside .gehirnspiele.aktivkat {
       background-position: 0 -337px;
     }
-      #infografik .leftside table {
+      #infografik .rightside table {
         width: 100%;
       }
       
-        #infografik .leftside table th {
+        #infografik .rightside table th {
           line-height: 22px;          
           text-align: right;
           font-size: 16px;
@@ -323,19 +323,19 @@ ul.menu.startseite {
           cursor: default;
         }
         
-        #infografik .leftside table td {
+        #infografik .rightside table td {
           /*padding: 3px 0;*/
           line-height: 22px;
           text-align: right;
           cursor: default;
         }
         
-        #infografik .leftside table td.aktivtd {
+        #infografik .rightside table td.aktivtd {
           font-weight: bold;
           color: #3e3d3b;
         }
 
-  #infografik .rightside {
+  #infografik .leftside {
     width: 502px;
     height: 401px;
     
@@ -350,15 +350,15 @@ ul.menu.startseite {
   }
   
   /* Design */
-  #infografik .rightside.desi, #infografik .rightside.ps, #infografik .rightside.ai, #infografik .rightside.ind, #infografik .rightside.fla, #infografik .rightside.fw, #infografik .rightside.pp, #infografik .rightside.ae  {
+  #infografik .leftside.desi, #infografik .leftside.ps, #infografik .leftside.ai, #infografik .leftside.ind, #infografik .leftside.fla, #infografik .leftside.fw, #infografik .leftside.pp, #infografik .leftside.ae  {
     background-position: 0 -802px;
   }
   /* Coding */
-  #infografik .rightside.cod, #infografik .rightside.ht, #infografik .rightside.cs, #infografik .rightside.jas, #infografik .rightside.php, #infografik .rightside.actsc {
+  #infografik .leftside.cod, #infografik .leftside.ht, #infografik .leftside.cs, #infografik .leftside.jas, #infografik .leftside.php, #infografik .leftside.actsc {
     background-position: 0 -401px;
   }
   /* Spiele */
-  #infografik .rightside.spi, #infografik .rightside.snes, #infografik .rightside.wii, #infografik .rightside.nds, #infografik .rightside.playst, #infografik .rightside.sonst {
+  #infografik .leftside.spi, #infografik .leftside.snes, #infografik .leftside.wii, #infografik .leftside.nds, #infografik .leftside.playst, #infografik .leftside.sonst {
     background-position: 0 -1203px;
   }
   
@@ -492,7 +492,7 @@ ul.menu.startseite {
         background-position: -133px -847px;
       }
     
-    #infografik .rightside .map {
+    #infografik .leftside .map {
       position: absolute;
       top: 0;
       left: 0;
