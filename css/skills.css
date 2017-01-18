@@ -106,7 +106,7 @@
     padding: 0 0 50px 150px;
   }
   #infografik .leftside {
-    width: 164px;
+    width:40%;
     float: right;
   }
     #infografik .leftside .gehirndesign, #infografik .leftside .gehirncoding, #infografik .leftside .gehirnspiele {
@@ -129,14 +129,14 @@
         width: 100%;
       }
       
-        #infografik .leftside table th {
+        /*#infografik .leftside table th {
           line-height: 22px;          
           text-align: right;
           font-size: 16px;
           font-weight: bold;
           text-transform: uppercase;
           cursor: default;
-        }
+        */}
         
         #infografik .leftside table td {
           /*padding: 3px 0;*/
