@@ -96,14 +96,14 @@
 /*==================ABOUT=====================*/
 /*------------------Map-----------------------*/
 
-#infografik {
+/*#infografik {
   width: 731px;
   
   margin: 0 auto;
   padding: 0 0 0 89px;
-}
+}*/
   #infografik h1 {
-    padding: 0 0 40px 171px;
+    padding: 0 0 50px 150px;
   }
   #infografik .leftside {
     width: 164px;
