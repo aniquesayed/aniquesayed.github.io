@@ -135,6 +135,7 @@
           font-weight: bold;
           text-transform: uppercase;
           cursor: default;
+          width: 70%;
         }
         
         #infografik .leftside table td {
