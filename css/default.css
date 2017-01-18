@@ -201,20 +201,20 @@ div#innernav {
   background: url('../images/layout/subnav_bg2.png') repeat-x;
 }
 
-div#navi div.leftside, div#navi div.rightside {
+/*div#navi div.leftside, div#navi div.rightside {
   float: left;
   
   width: 50%;
   height: 98px;
-}
+}*/
 
-div#navi div.leftside {
+/*div#navi div.leftside {
   background: url('../images/layout/subnav_bg1.png') repeat-x;
 }
 
 div#navi div.rightside {
   background: url('../images/layout/subnav_bg2.png') repeat-x;
-}
+}*/
 
 a#logo, a#logo:link, a#logo:visited {
   display: block;
@@ -440,14 +440,14 @@ ul.social {
   position: relative;
 }
 
-.subnav .leftside, .subnav .rightside {
+/*.subnav .leftside, .subnav .rightside {
   width: 50%;
   float: left;
 }
 
 .subnav .rightside {
   float: right;
-}
+}*/
     
 ul.footernavi  {
   float: right;
@@ -537,13 +537,13 @@ ul.menu.startseite {
   margin: 7px 0 0 0;
 }
 
-  #subboxes .leftside, #subboxes .rightside {
+/*  #subboxes .leftside, #subboxes .rightside {
     width: 50%;
     float: left;
   }
   #subboxes .rightside  {
     float: right;
-  }
+  }*/
   
 #mebox {
   width: 308px;
@@ -1148,12 +1148,12 @@ ul.menu.startseite {
   #infografik h1 {
     padding: 0 0 40px 171px;
   }
-  #infografik .leftside {
+  /*#infografik .leftside {
     width: 164px;
     float: left;
-  }
-    #infografik .leftside .gehirndesign, #infografik .leftside .gehirncoding, #infografik .leftside .gehirnspiele {
-      width:  140px; /* 130px */
+  }*/
+    /*#infografik .leftside .gehirndesign, #infografik .leftside .gehirncoding, #infografik .leftside .gehirnspiele {
+      width:  140px; 
       padding: 7px 12px;
       margin: 0;
       
@@ -1182,7 +1182,6 @@ ul.menu.startseite {
         }
         
         #infografik .leftside table td {
-          /*padding: 3px 0;*/
           line-height: 22px;
           text-align: right;
           cursor: default;
@@ -1191,9 +1190,9 @@ ul.menu.startseite {
         #infografik .leftside table td.aktivtd {
           font-weight: bold;
           color: #3e3d3b;
-        }
+        }*/
 
-  #infografik .rightside {
+  /*#infografik .rightside {
     width: 502px;
     height: 401px;
     
@@ -1205,20 +1204,20 @@ ul.menu.startseite {
     float: right;
     
     background: url('../images/layout/gehirn_sprite.png') no-repeat;
-  }
+  }*/
   
   /* Design */
-  #infografik .rightside.desi, #infografik .rightside.ps, #infografik .rightside.ai, #infografik .rightside.ind, #infografik .rightside.fla, #infografik .rightside.fw, #infografik .rightside.pp, #infografik .rightside.ae  {
+  /*#infografik .rightside.desi, #infografik .rightside.ps, #infografik .rightside.ai, #infografik .rightside.ind, #infografik .rightside.fla, #infografik .rightside.fw, #infografik .rightside.pp, #infografik .rightside.ae  {
     background-position: 0 -802px;
-  }
+  }*/
   /* Coding */
-  #infografik .rightside.cod, #infografik .rightside.ht, #infografik .rightside.cs, #infografik .rightside.jas, #infografik .rightside.php, #infografik .rightside.actsc {
+  /*#infografik .rightside.cod, #infografik .rightside.ht, #infografik .rightside.cs, #infografik .rightside.jas, #infografik .rightside.php, #infografik .rightside.actsc {
     background-position: 0 -401px;
-  }
+  }*/
   /* Spiele */
-  #infografik .rightside.spi, #infografik .rightside.snes, #infografik .rightside.wii, #infografik .rightside.nds, #infografik .rightside.playst, #infografik .rightside.sonst {
+  /*#infografik .rightside.spi, #infografik .rightside.snes, #infografik .rightside.wii, #infografik .rightside.nds, #infografik .rightside.playst, #infografik .rightside.sonst {
     background-position: 0 -1203px;
-  }
+  }*/
   
     #maphover {
       position: absolute;
@@ -1350,14 +1349,14 @@ ul.menu.startseite {
         background-position: -133px -847px;
       }
     
-    #infografik .rightside .map {
+    /*#infografik .rightside .map {
       position: absolute;
       top: 0;
       left: 0;
      
       width: 502px;
       height: 401px;
-    }
+    }*/
     
 .tooltip {
   position: absolute;
@@ -1417,7 +1416,7 @@ ul.menu.startseite {
   width: 940px;
 }
 
-.mainabout .leftside {
+/*.mainabout .leftside {
   width: 235px;
   height: 340px;
   
@@ -1442,9 +1441,9 @@ ul.menu.startseite {
 .mainabout .leftside .hover {
   opacity: 0;
   background-position: left bottom;
-}
+}*/
 
-.mainabout .rightside {
+/*.mainabout .rightside {
   width: 620px;
   float: right;
 }
@@ -1454,7 +1453,7 @@ ul.menu.startseite {
   }
   .mainabout .rightside .righttext {
     float: right;
-  }
+  }*/
   
 .copytext {
   padding: 20px 0 0 0;
@@ -1678,7 +1677,7 @@ div.error {
   margin: 87px auto 0 auto;
 }
 
-  .impmain .leftside {
+  /*.impmain .leftside {
     width: 460px;
     float: left;
   }
@@ -1686,7 +1685,7 @@ div.error {
   .impmain .rightside {
     width: 380px;
     float: right;
-  }
+  }*/
   
   .impmain h2 {
     font-size: 16px;
@@ -1694,9 +1693,9 @@ div.error {
     font-weight: bold;
   }
   
-  .impmain .rightside img {
+  /*.impmain .rightside img {
     margin: 6px 0 40px 44px;
-  }
+  }*/
   
 .disc-layer1 {
   margin: 5px 10px;
