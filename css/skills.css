@@ -306,30 +306,13 @@
     }
 
 
-@media only screen and (max-width: 1049px) {      
+@media only screen and (max-width: 800px) {      
 
-      #infografik .rightside .map {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 50% !important;
-      height: auto;
-      /*width: 502px;*/
-      /*height: 401px;*/
+      #infografik {
+      display: none;
     }
 
-      #infografik .rightside {
-        width: 252px;
-        height: 200px;
-        overflow: hidden;
-        margin: 20px 0 0 0;
-        position: relative;
-        float:left;
-        padding-right:30px;
     
-        background: url('../images/layout/gehirn_sprite_small.png') no-repeat;
-      } 
-
     }
 
 
