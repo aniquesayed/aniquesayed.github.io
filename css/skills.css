@@ -105,9 +105,7 @@
     float: right;
   }
     #infografik .leftside .gehirndesign, #infografik .leftside .gehirncoding, #infografik .leftside .gehirnspiele {
-      width:  140px; /* 130px */
-      padding: 7px 12px;
-      margin: 0;
+      
       
       background: url('../images/layout/gehirn_links_hover.png') no-repeat 0 500px;
 
@@ -129,6 +127,8 @@
           font-weight: bold;
           text-transform: uppercase;
           cursor: default;
+          padding-top: 10px;
+          padding-bottom: 2px;
         }
         
         #infografik .leftside table td {
