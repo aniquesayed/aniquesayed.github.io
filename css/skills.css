@@ -306,6 +306,8 @@
       position: absolute;
       top: 0;
       left: 0;
-      width: 502px;
-      height: 401px;
+      width: 100%;
+      height: auto;
+      /*width: 502px;*/
+      /*height: 401px;*/
     }
