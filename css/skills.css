@@ -105,7 +105,11 @@
     float: right;
   }
     #infografik .leftside .gehirndesign, #infografik .leftside .gehirncoding, #infografik .leftside .gehirnspiele {
+      width:  140px; /* 130px */
+      padding: 7px 12px;
+      margin: 0;
       
+      background: url('../images/layout/gehirn_links_hover.png') no-repeat 0 500px;
 
     }
     #infografik .leftside .gehirndesign.aktivkat {
