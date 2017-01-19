@@ -326,21 +326,6 @@
         background: url('../images/layout/gehirn_sprite_small.png') no-repeat;
       } 
 
-      #maphover {
-      display: none;
-    }
-
-    #infografik .leftside table th {
-          font-weight: bold;
-          text-transform: uppercase;
-          cursor: default;
-        }
-        
-        #infografik .leftside table td {
-          cursor: default;
-        }
-
-
     }
 
 
