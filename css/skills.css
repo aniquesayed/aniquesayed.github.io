@@ -97,24 +97,16 @@
 /*------------------Map-----------------------*/
 
 #infografik {
-  width: 1000px;
-  
-  margin: 0 auto;
-  padding: 0 0 0 89px;
 }
   #infografik h1 {
     padding: 0 0 50px 350px;
   }
   #infografik .leftside {
-    width:30%;
     float: right;
   }
     #infografik .leftside .gehirndesign, #infografik .leftside .gehirncoding, #infografik .leftside .gehirnspiele {
-      width:  140px; /* 130px */
-      padding: 7px 12px;
-      margin: 0;
       
-      background: url('../images/layout/gehirn_links_hover.png') no-repeat 0 500px;
+
     }
     #infografik .leftside .gehirndesign.aktivkat {
       background-position: 0 0;
@@ -130,15 +122,12 @@
       }
       
         #infografik .leftside table th {
-          line-height: 22px;          
-          font-size: 16px;
           font-weight: bold;
           text-transform: uppercase;
           cursor: default;
         }
         
         #infografik .leftside table td {
-          line-height: 18px;
           cursor: default;
         }
         
@@ -313,18 +302,50 @@
     }
 
 
-@media only screen and (min-width: 545px) and (max-width: 1049px) {      
+@media only screen and (max-width: 1049px) {      
 
-      #infografik .rightside{
-        display: none;
-      }
-
-    #infografik .leftside{
-        float: left;
-        width: 100%;
+      #infografik .rightside .map {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50% !important;
+      height: auto;
+      /*width: 502px;*/
+      /*height: 401px;*/
     }
 
-  }
+      #infografik .rightside {
+        width: 252px;
+        height: 200px;
+        overflow: hidden;
+        margin: 20px 0 0 0;
+        position: relative;
+        float:left;
+        padding-right:30px;
+    
+        background: url('../images/layout/gehirn_sprite_small.png') no-repeat;
+      } 
+
+      #maphover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      
+      background: url('../images/layout/gehirn_hover_small.png') no-repeat;
+    }
+
+    #infografik .leftside table th {
+          font-weight: bold;
+          text-transform: uppercase;
+          cursor: default;
+        }
+        
+        #infografik .leftside table td {
+          cursor: default;
+        }
+
+
+    }
 
 
 
