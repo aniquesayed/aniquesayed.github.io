@@ -311,3 +311,23 @@
       /*width: 502px;*/
       /*height: 401px;*/
     }
+
+
+    @media only screen and (min-width: 545px) {
+      
+
+      #infografik .rightside .map {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: auto;
+      /*width: 502px;*/
+      /*height: 401px;*/
+    }
+
+
+    }
+
+
+
