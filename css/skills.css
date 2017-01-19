@@ -145,7 +145,7 @@
     float:left;
     padding-right:30px;
     
-    background: url('../images/layout/gehirn_sprite.png') no-repeat;
+    background: url('../images/layout/gehirn_sprite_small.png') no-repeat;
   }
   
   /* Design */ 
@@ -166,7 +166,7 @@
       top: 0;
       left: 0;
       
-      background: url('../images/layout/gehirn_hover.png') no-repeat;
+      background: url('../images/layout/gehirn_hover_small.png') no-repeat;
     }
       /* Design */
       #maphover.ps {
