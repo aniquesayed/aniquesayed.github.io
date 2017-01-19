@@ -305,12 +305,21 @@
       /*height: 401px;*/
     }
 
+    #proficiencymobile {
+      display: none;
+    }
+
 
 @media only screen and (max-width: 800px) {      
 
       #proficiency {
       display: none;
     }
+
+    #proficiencymobile {
+     display: block;
+    }
+
 
     
     }
